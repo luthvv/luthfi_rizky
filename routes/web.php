@@ -20,3 +20,15 @@ Route::get('/', function () {
 });
 
 Route::get('/', [HomeController::class, 'index'])->name('frontend.home');
+
+Route::get('/projects/software', function(){
+    return view('frontend.projects.software');
+})->name('frontend.projects.software');
+
+Route::get('/projects/design', function(){
+    return view('frontend.projects.design');
+})->name('frontend.projects.design');
+
+Route::get('/projects/video', function(){
+    return view('frontend.projects.video');
+})->name('frontend.projects.video');
