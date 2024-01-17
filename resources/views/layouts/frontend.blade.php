@@ -475,7 +475,7 @@
         }
 
         .underline-hover:hover::after {
-            width: 235px;
+            width: 105%;
         }
 
         .underline-hover:hover .arrow {

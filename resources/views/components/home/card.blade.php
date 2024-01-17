@@ -1,4 +1,4 @@
-<div class="flex lg:gap-10 relative justify-center w-full bottom-[-150px] max-sml:shadow-lg">
+<div class="flex lg:gap-10 relative justify-center w-full sml:bottom-[-150px] bottom-[-100px] max-sml:shadow-lg">
     <a href="{{ route('frontend.projects.software') }}"
         class="block1 cursor-pointer sml:h-[300px] h-[200px] w-1/3 duration-300 bg-bg1 hover:bg-secondary hover:border-white border-4 border-[#DBD9D7] flex lg:items-end items-center justify-center lg:pb-10 lg:shadow-xl">
         <div class="flex lg:flex-row flex-col gap-6 max-lg:text-center">

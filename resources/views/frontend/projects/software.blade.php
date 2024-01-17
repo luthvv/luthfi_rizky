@@ -25,12 +25,12 @@
 
                         <div class="p-5 pb-7 pt-1 flex flex-col items-start">
                             <p class="block mb-2 gotham-medium text-xl font-black font-medium">{{ $name[$i] }}</p>
-                            <p class="tracking-tighter text-black mb-4">
+                            <p class="tracking-tighter text-black max-sml:text-sm mb-4 gotham-light">
                                 {{ $desc[$i] }}
                             </p>
                             <div class="self-end">
                                 <a href="{{ $link[$i] }}"
-                                    class="bg-secondary duration-300 hover:bg-primary text-white font-bold py-2 px-4 rounded">
+                                    class="bg-secondary duration-300 hover:bg-primary max-sml:text-sm text-white font-bold sml:py-2 p-2 sml:px-4 rounded">
                                     Visit Website ->
                                 </a>
                             </div>

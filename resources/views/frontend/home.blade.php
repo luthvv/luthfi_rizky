@@ -3,7 +3,7 @@
 
 @section('content')
     <div class="relative bg-bg1">
-        <div class="bg-bg1 miring overflow-hidden relative z-50 md:h-[118vh] h-[110vh]">
+        <div class="bg-bg1 miring overflow-hidden relative z-50 md:h-[118vh] h-[100vh]">
             <div
                 class="relative top-[65px] rata pt-[30px] px-5 md:px-[40px] lg:px-[100px] xl:px-[150px] h-full md:pr-[20px]">
 
@@ -13,15 +13,18 @@
                     <div class="md:self-center relative z-50 mb-[180px] sm:mb-[200px] md:mb-[80px]">
                         <div
                             class="flex items-center gap-5 sm:mb-[40px] mb-5 xl:mb-[70px] text-3xl md:text-4xl text-primary">
-                            <div class="ig cursor-pointer hover:text-secondary duration-300">
+                            <a href="https://www.instagram.com/luthvv/"
+                                class="ig cursor-pointer hover:text-secondary duration-300">
                                 <i class="fa-brands fa-instagram"></i>
-                            </div>
-                            <div class="linked cursor-pointer hover:text-secondary duration-300">
+                            </a>
+                            <a href="https://www.linkedin.com/in/luthfi-ginting-b3b3a7218/"
+                                class="linked cursor-pointer hover:text-secondary duration-300">
                                 <i class="fa-brands fa-linkedin"></i>
-                            </div>
-                            <div class="git cursor-pointer hover:text-secondary duration-300">
+                            </a>
+                            <a href="https://github.com/luthvv"
+                                class="git cursor-pointer hover:text-secondary duration-300">
                                 <i class="fa-brands fa-github"></i>
-                            </div>
+                            </a>
                         </div>
 
                         <div class="w-[100px] h-[6px] md:h-[8px] bg-secondary sm:mb-[30px] mb-5"></div>
@@ -68,26 +71,25 @@
             class="bg-bg2 relative top-[-140px] sml:px-10 md:px-[70px] lg:px-[100px] xl:px-[180px] pt-[150px] lg:pt-[200px] z-20">
             <div class="flex md:flex-row flex-col justify-between max-sml:px-5  gap-10 lg:gap-0">
                 <div class="about1 flex flex-col items-start md:w-1/2 lg:w-2/5">
-                    <div class="gotham-light text-lg lg:text-xl text-primary mb-5 relative sm:left-[-12px]">&#x2022;
+                    <div class="gotham-medium text-lg lg:text-xl text-primary mb-5 relative sm:left-[-12px]">&#x2022;
                         About
                     </div>
                     <div
                         class="gotham-bold headline text-xl sm:text-2xl lg:text-3xl text-white sm:leading-[40px] mb-3 s:mb-5">
-                        High school
-                        student,
-                        who develops
-                        application</div>
+                        biomedical science student who loves computer science</div>
 
                     <div
                         class="gotham-medium sm:text-lg lg:text-xl text-[#EEEEEE] sm:leading-[30px] lg:leading-[42px] mb-11">
-                        I Study in a IT School, Based in indonesia, we learn technologies and development.
+                        I am a freshman currently majoring in biomedical science at IPB University, Indonesia
                     </div>
 
-                    <div
-                        class="cursor-pointer text-secondary sm:text-lg lg:text-xl gotham-medium flex items-center max-w-fit underline-hover">
-                        <i class="mr-10">kodeintekno.com</i>
+                    <a href="https://www.ipb.ac.id
+                    "
+                        class="cursor-pointer text-secondary relative sm:text-lg lg:text-xl gotham-medium flex items-center max-w-fit underline-hover max-w-max">
+                        <i class="mr-10">ipb.ac.id
+                        </i>
                         <i class="fa-solid fa-forward arrow"></i>
-                    </div>
+                    </a>
 
 
                 </div>
@@ -103,17 +105,18 @@
 
                         <div
                             class="gotham-medium sm:text-lg lg:text-xl text-[#EEEEEE] sm:leading-[30px] lg:leading-[42px] mb-11">
-                            Start learning to develop when i went to high school, from website, mobile and fullstack
-                            development.
+                            Start learning to software develoment and film making since i was in high school, from
+                            fullstack website development, to mobile development. I also like using adobe software for
+                            graphic design and video editing.
                         </div>
                     </div>
 
                     <div
-                        class="flex max-sm:flex-wrap sm:justify-between justify-center items-center relative cube min-w-fit gap-2  sml:gap-10 md:gap-5 px-3 lg:px-6">
+                        class="flex max-sm:flex-wrap sm:justify-between justify-center items-center relative cube min-w-fit gap-5 md:gap-5 px-3 lg:px-6">
                         <div class="about3 flex gap-3 sml:gap-6 md:gap-3 lg:gap-6 items-center">
                             <div
                                 class="fonseca text-[32px] sm:text-[50px] sml:text-[70px] md:text-[50px] lg:text-[70px] text-primary">
-                                3</div>
+                                2</div>
                             <div class="gotham-bold text-sm sm:text-xl sml:text-2xl md:text-xl lg:text-2xl text-white">
                                 Years of
                                 <br>
@@ -124,9 +127,10 @@
                         <div class="about4 flex gap-3 sml:gap-6 md:gap-3 lg:gap-6 items-center">
                             <div
                                 class="fonseca text-[32px] sm:text-[50px] sml:text-[70px] md:text-[50px] lg:text-[70px] text-primary">
-                                24</div>
-                            <div class="gotham-bold text-sm sm:text-xl sml:text-2xl md:text-xl lg:text-2xl text-white">
-                                Projects
+                                5</div>
+                            <div
+                                class="gotham-bold text-sm sm:text-xl sml:text-2xl md:text-xl lg:text-2xl text-white text-center">
+                                Company Projects
                                 <br> Finished
                             </div>
                         </div>
@@ -141,9 +145,12 @@
 
 
         {{-- <x-home.works /> --}}
-
-        <div class="w-full text-center pt-[220px] relative top-[-140px] fonseca text-3xl">
-            THIS WEBSITE IS ON DEVELOP
+        <div>
+            <img class="mx-auto mt-16 max-sml:w-2/3" src="{{ asset('images/construct.png') }}" alt="">
+            <div
+                class="w-full text-center relative top-[-140px] sml:mt-[100px] mt-[120px] fonseca text-3xl lg:text-4xl text-white">
+                THIS WEBSITE IS ON DEVELOP
+            </div>
         </div>
 
         {{-- <x-chat-bot /> --}}
