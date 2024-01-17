@@ -5,8 +5,8 @@
             <i class="sml:text-4xl text-3xl text-white fa-solid fa-laptop mt-4"></i>
             <div>
                 <div class="text-white gotham-medium lg:text-3xl sml:text-2xl sm:text-xl text-base mb-4">Software <br>
-                    Developer</div>
-                <div class="lg:text-xl sml:text-lg gotham-light text-white gotham-medium drop-shadow-md max-sml:hidden">8
+                    Developing</div>
+                <div class="lg:text-xl sml:text-lg gotham-light text-white gotham-medium drop-shadow-md max-sml:hidden">5
                     Project</div>
             </div>
         </div>
@@ -18,8 +18,8 @@
             <i class="fa-solid fa-video sml:text-4xl text-3xl text-white mt-5"></i>
             <div>
                 <div class="text-white gotham-medium lg:text-3xl sml:text-2xl sm:text-xl text-base mb-4">Video <br>
-                    Editor</div>
-                <div class="lg:text-xl sml:text-lg gotham-medium text-white drop-shadow-md max-sml:hidden">8 Project
+                    Editing</div>
+                <div class="lg:text-xl sml:text-lg gotham-medium text-white drop-shadow-md max-sml:hidden">7 Project
                 </div>
             </div>
         </div>
@@ -30,10 +30,10 @@
         <div class="flex lg:flex-row flex-col gap-6 max-lg:text-center">
             <i class="fa-solid fa-pen-ruler sml:text-4xl text-3xl text-white mt-5"></i>
             <div>
-                <div class="text-white gotham-medium lg:text-3xl sml:text-2xl sm:text-xl text-base mb-4">UI / UX <br>
+                <div class="text-white gotham-medium lg:text-3xl sml:text-2xl sm:text-xl text-base mb-4">Graphic <br>
                     Design</div>
                 <div class="lg:text-xl sml:text-lg gotham-light text-white gotham-medium drop-shadow-md max-sml:hidden">
-                    8 Project</div>
+                    ? Project</div>
             </div>
         </div>
     </a>

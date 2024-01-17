@@ -112,7 +112,7 @@
                     </div>
 
                     <div
-                        class="flex max-sm:flex-wrap sm:justify-between justify-center items-center relative cube min-w-fit gap-5 md:gap-5 px-3 lg:px-6">
+                        class="flex max-sm:flex-wrap justify-between items-center relative cube min-w-fit gap-5 md:gap-5 px-3 lg:px-6">
                         <div class="about3 flex gap-3 sml:gap-6 md:gap-3 lg:gap-6 items-center">
                             <div
                                 class="fonseca text-[32px] sm:text-[50px] sml:text-[70px] md:text-[50px] lg:text-[70px] text-primary">
