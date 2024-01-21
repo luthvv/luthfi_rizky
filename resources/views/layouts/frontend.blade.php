@@ -51,10 +51,9 @@
 
 <body>
     <main>
-
-        {{-- @include('components.nav-bar') --}}
+        {{-- @include('components.frontend.nav-bar') --}}
         @yield('content')
-        @include('components.footer')
+        @include('components.frontend.footer')
 
     </main>
 
@@ -626,25 +625,26 @@
 
         @font-face {
             font-family: Fonseca;
-            font-weight: bold;
+            /* font-weight: bold; */
             src: url('{{ public_path('fonts/Fonseca.tff') }}');
         }
 
+
         @font-face {
             font-family: Gotham;
-            font-weight: 700;
+            /* font-weight: 700; */
             src: url('{{ public_path('fonts/GothamBold.tff') }}');
         }
 
         @font-face {
             font-family: Gotham;
-            font-weight: 500;
+            /* font-weight: 500; */
             src: url('{{ public_path('fonts/GothamBook.tff') }}');
         }
 
         @font-face {
             font-family: Gotham;
-            font-weight: 600;
+            /* font-weight: 600; */
             src: url('{{ public_path('fonts/GothamMedium.tff') }}');
         }
 
@@ -687,6 +687,19 @@
 
         .fonseca {
             font-family: 'Fonseca', sans-serif;
+            font-weight: normal;
+
+        }
+
+        .fonseca-bold {
+            font-family: 'Fonseca', sans-serif;
+            font-weight: bold;
+
+        }
+
+        .fonseca-italic {
+            font-family: 'Fonseca', sans-serif;
+            font-style: italic
         }
 
         .gotham-bold {

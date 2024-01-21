@@ -7,7 +7,7 @@
             <div
                 class="relative top-[65px] rata pt-[30px] px-5 md:px-[40px] lg:px-[100px] xl:px-[150px] h-full md:pr-[20px]">
 
-                <x-nav-bar />
+                <x-frontend.nav-bar />
 
                 <div class="h-full flex flex-col-reverse md:flex-row justify-between gap-">
                     <div class="md:self-center relative z-50 mb-[180px] sm:mb-[200px] md:mb-[80px]">
@@ -30,7 +30,7 @@
                         <div class="w-[100px] h-[6px] md:h-[8px] bg-secondary sm:mb-[30px] mb-5"></div>
 
                         <div
-                            class="fonseca name text-[40px] sm:text-[70px] lg:text-[90px] xl:text-[130px] leading-[55px] sm:leading-[70px] lg:leading-[100px] xl:leading-[130px] z-[999] relative text-white">
+                            class="fonseca-bold name text-[40px] sm:text-[70px] lg:text-[90px] xl:text-[130px] leading-[55px] sm:leading-[70px] lg:leading-[100px] xl:leading-[130px] z-[999] relative text-white">
                             LUTHFI <br>
                             GINTING.
                         </div>
@@ -139,7 +139,9 @@
                 </div>
             </div>
 
-            <x-home.card />
+            <div class="relative top-20 fonseca text-5xl text-white text-center">My projects</div>
+
+            <x-frontend.home.card />
 
         </div>
 
