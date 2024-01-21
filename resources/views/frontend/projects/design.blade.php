@@ -12,7 +12,7 @@
     <div class="relative bg-bg1">
         <div class="relative pt-[30px] pb-44 px-5 md:px-[40px] lg:px-[100px] xl:px-[150px] h-full md:pr-[20px] min-h-screen">
 
-            <x-nav-bar />
+            <x-frontend.nav-bar />
             <div class="fonseca text-5xl text-center flex items-center justify-center mt-44 text-white">
                 <div class="fonseca">COMING SOON</div>
             </div>

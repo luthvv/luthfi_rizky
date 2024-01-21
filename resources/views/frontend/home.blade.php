@@ -30,7 +30,7 @@
                         <div class="w-[100px] h-[6px] md:h-[8px] bg-secondary sm:mb-[30px] mb-5"></div>
 
                         <div
-                            class="fonseca-bold name text-[40px] sm:text-[70px] lg:text-[90px] xl:text-[130px] leading-[55px] sm:leading-[70px] lg:leading-[100px] xl:leading-[130px] z-[999] relative text-white">
+                            class="fonseca-italic name text-[40px] sm:text-[70px] lg:text-[90px] xl:text-[130px] leading-[55px] sm:leading-[70px] lg:leading-[100px] xl:leading-[130px] z-[999] relative text-white">
                             LUTHFI <br>
                             GINTING.
                         </div>

@@ -12,7 +12,7 @@
     <div class="relative bg-bg1">
         <div class="relative pt-[30px] pb-44 px-5 md:px-[40px] lg:px-[100px] xl:px-[150px] h-full md:pr-[20px] min-h-screen">
 
-            <x-nav-bar />
+            <x-frontend.nav-bar />
             <div class="mt-24 grid xl:grid-cols-3 md:grid-cols-2 lg:gap-16 sml:gap-12 gap-16">
                 @for ($i = 0; $i < 5; $i++)
                     <div class="bg-bg2 rounded-md flex flex-col justify-between">
