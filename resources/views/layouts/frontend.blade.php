@@ -60,7 +60,45 @@
     <script src="https://vjs.zencdn.net/8.9.0/video.min.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <style type="text/css">
+        @font-face {
+            font-family: Fonseca;
+            font-weight: 500;
+            src: url('{{ public_path('fonts/Fonseca.tff') }}');
+        }
 
+        @font-face {
+            font-family: Fonseca;
+            font-weight: 700;
+            src: url('{{ public_path('fonts/Fonseca-Bold.tff') }}');
+        }
+
+        @font-face {
+            font-family: Fonseca;
+            font-weight: 500;
+            font-style: italic;
+            src: url('{{ public_path('fonts/Fonseca-Italic.tff') }}');
+        }
+
+
+        @font-face {
+            font-family: Gotham;
+            font-weight: 700;
+            src: url('{{ public_path('fonts/GothamBold.tff') }}');
+        }
+
+        @font-face {
+            font-family: Gotham;
+            font-weight: 500;
+            src: url('{{ public_path('fonts/GothamBook.tff') }}');
+        }
+
+        @font-face {
+            font-family: Gotham;
+            font-weight: 600;
+            src: url('{{ public_path('fonts/GothamMedium.tff') }}');
+        }
+    </style>
     <style>
         .footer {
             position: relative;
@@ -623,43 +661,7 @@
             word-spacing: 100vw;
         }
 
-        @font-face {
-            font-family: Fonseca;
-            font-weight: 500;
-            src: url('{{ public_path('fonts/Fonseca.tff') }}');
-        }
 
-        @font-face {
-            font-family: Fonseca;
-            font-weight: 700;
-            src: url('{{ public_path('fonts/Fonseca-Bold.tff') }}');
-        }
-
-        @font-face {
-            font-family: Fonseca;
-            font-weight: 500;
-            font-style: italic;
-            src: url('{{ public_path('fonts/Fonseca-Italic.tff') }}');
-        }
-
-
-        @font-face {
-            font-family: Gotham;
-            font-weight: 700;
-            src: url('{{ public_path('fonts/GothamBold.tff') }}');
-        }
-
-        @font-face {
-            font-family: Gotham;
-            font-weight: 500;
-            src: url('{{ public_path('fonts/GothamBook.tff') }}');
-        }
-
-        @font-face {
-            font-family: Gotham;
-            font-weight: 600;
-            src: url('{{ public_path('fonts/GothamMedium.tff') }}');
-        }
 
         * {
             font-family: 'Inter', sans-serif;
