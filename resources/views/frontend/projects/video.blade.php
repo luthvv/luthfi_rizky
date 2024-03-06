@@ -3,10 +3,46 @@
 
 @section('content')
     @php
-        $name = ['Qatar the Desert Jewel', 'Assassins Creed Saber VFX', 'Gabut Malem', 'Chaos Apartment', 'Pancatuy(ST 05) Makrab after movie', 'Mobile Legends Hologram VFX', 'Rain City'];
-        $video = ['https://www.youtube.com/embed/-aplEdbLfIs?si=mTph_gQ_pL0Amfjg', 'https://www.youtube.com/embed/HOAAxBnEplg?si=sRBd1lUkYwloPvOv', 'https://www.youtube.com/embed/xZyZFehz5HQ?si=xIV8wVENffEXwtdK', 'https://www.youtube.com/embed/ysInGCbB1xo?si=YK4C8vsm4kYr0pes', 'https://www.youtube.com/embed/HILnoV5a01U?si=03IV-Rw9HjlEMj_h', 'https://www.youtube.com/embed/3vot1YWTAnQ?si=3U-CR-VnAS4B3LXB', 'https://www.youtube.com/embed/wQ72XeMFc-4?si=d5UQdzjeBSadHbur'];
-        $types = [['4K', 'Cinematic'], ['VFX', 'HD'], ['4K', 'Cinematic'], ['VFX'], ['HD'], ['VFX', 'HD'], ['4K', 'Cinematic']];
-        $desc = ['Journey through Qatar, the Desert Jewel, where ancient sands meet modern marvels, and tradition dances with opulence in a radiant tapestry of history and innovation', 'Assassins creed logo intro using Saber VFX', 'Only gabut actually', 'Chaos destruction effect, doctor strange reference', 'Pancatuy`s makrab after movie', '3D Hologram Mobile Legends VFX Using After Effect', 'Bogor, often referred to as the "Rain City" of Indonesia, is a haven of tranquility. Its lush landscapes, iconic Botanical Gardens, historic Bogor Palace, delectable cuisine, and rich culture define the serene charm of this remarkable city'];
+        $name = [
+            'Qatar the Desert Jewel',
+            'Assassins Creed Saber VFX',
+            'Gabut Malem',
+            'Chaos Apartment',
+            'Pancatuy(ST 05) Makrab after movie',
+            'Mobile Legends Hologram VFX',
+            'Rain City',
+            'Bullying',
+        ];
+        $video = [
+            'https://www.youtube.com/embed/-aplEdbLfIs?si=mTph_gQ_pL0Amfjg',
+            'https://www.youtube.com/embed/HOAAxBnEplg?si=sRBd1lUkYwloPvOv',
+            'https://www.youtube.com/embed/xZyZFehz5HQ?si=xIV8wVENffEXwtdK',
+            'https://www.youtube.com/embed/ysInGCbB1xo?si=YK4C8vsm4kYr0pes',
+            'https://www.youtube.com/embed/HILnoV5a01U?si=03IV-Rw9HjlEMj_h',
+            'https://www.youtube.com/embed/3vot1YWTAnQ?si=3U-CR-VnAS4B3LXB',
+            'https://www.youtube.com/embed/wQ72XeMFc-4?si=d5UQdzjeBSadHbur',
+            'https://www.youtube.com/embed/CUunj8T6IgM?si=jsZD0nrqQdxqt7KV',
+        ];
+        $types = [
+            ['4K', 'Cinematic'],
+            ['VFX', 'HD'],
+            ['4K', 'Cinematic'],
+            ['VFX'],
+            ['HD'],
+            ['VFX', 'HD'],
+            ['4K', 'Cinematic'],
+            ['Cinematic', 'HD'],
+        ];
+        $desc = [
+            'Journey through Qatar, the Desert Jewel, where ancient sands meet modern marvels, and tradition dances with opulence in a radiant tapestry of history and innovation',
+            'Assassins creed logo intro using Saber VFX',
+            'Only gabut actually',
+            'Chaos destruction effect, doctor strange reference',
+            'Pancatuy`s makrab after movie',
+            '3D Hologram Mobile Legends VFX Using After Effect',
+            'Bogor, often referred to as the "Rain City" of Indonesia, is a haven of tranquility. Its lush landscapes, iconic Botanical Gardens, historic Bogor Palace, delectable cuisine, and rich culture define the serene charm of this remarkable city',
+            'Pendidikan Pancasila (Konflik Sosial: Bullying)',
+        ];
     @endphp
     <div class="relative bg-bg1">
         <div class="relative pt-[30px] pb-44 px-5 md:px-[40px] lg:px-[100px] xl:px-[150px] h-full md:pr-[20px] min-h-screen">
@@ -42,7 +78,10 @@
                                 {{ $desc[$i] }}
                             </p>
                             <div class="self-end">
-                                @if ($name[$i] == 'Qatar the Desert Jewel' || $name[$i] == 'Gabut Malem' || $name[$i] == 'Rain City')
+                                @if (
+                                    $name[$i] == 'Qatar the Desert Jewel' ||
+                                        $name[$i] == 'Gabut Malem' ||
+                                        ($name[$i] == 'Rain City') | ($name[$i] == 'Bullying'))
                                     <span
                                         class="inline-flex items-center rounded-md bg-yellow-50 px-2 py-1 text-xs font-medium text-yellow-800 ring-1 ring-inset ring-yellow-600/20">4K</span>
                                     <span
@@ -74,6 +113,34 @@
                         </div>
                     </div>
                 @endfor
+
+                <div class="bg-bg2 rounded-md flex flex-col justify-between">
+                    <div class="flex justify-center items-center leading-none ">
+                        <img src="{{ asset('images/jaditau.webp') }}" alt="pic"
+                            class="w-4/5 h-[250px] rounded-md object-cover shadow-2xl mt-6 transform -translate-y-10 hover:-translate-y-2 transition duration-700" />
+
+
+
+                    </div>
+
+                    <div class="p-5 pt-1 pb-7 flex flex-col items-start">
+                        <p class="block mb-2 gotham-medium text-xl font-black font-medium"> Jaditau Community
+                        </p>
+                        <p class="tracking-tighter text-black mb-2 max-sml:text-sm gotham-light mb-8">
+                            Self Development, Mentoring and Education
+                            🚀 A place to discover and develop your best potential by genetic
+                            🌱 Guiding you to be the best mentor for yourself and others
+                        </p>
+                        <div class="self-end">
+                            <a href="https://www.instagram.com/jaditau.community/"
+                                class="bg-secondary duration-300 hover:bg-primary max-sml:text-sm text-white font-bold sml:py-2 p-2 sml:px-4 rounded">
+                                Visit Instagram ->
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
 
 

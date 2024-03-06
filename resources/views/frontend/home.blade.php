@@ -155,15 +155,15 @@
             </div>
         </div>
 
-        {{-- <x-chat-bot /> --}}
+        {{-- <x-frontend.chat-bot /> --}}
 
 
 
 
-        {{-- <button id="contact-btn" onclick="contactBtn()"
+        <button id="contact-btn" onclick="contactBtn()"
             class="floating-contact fixed right-5 bottom-5 md:right-10 md:bottom-10 z-[999] flex items-center justify-center transition-all">
             <i class="fa-regular fa-message text-4xl "></i>
             <div class="contact-me ml-2 gotham-medium">Contact me</div>
-        </button> --}}
+        </button>
     </div>
 @endsection

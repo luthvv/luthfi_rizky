@@ -673,6 +673,7 @@
             border-radius: 999px;
             left: 0;
             right: 0;
+            bottom: -15px;
             height: 8px;
             margin: auto;
             width: 8px;
