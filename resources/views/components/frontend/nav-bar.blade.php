@@ -1,5 +1,5 @@
 <div
-    class="p-5 font-semiibold text-center flex gap-4 sm:gap-[40px] text-lg sm:text-[20px] lg:text-[26px] justify-between sm:justify-center lg:justify-start w-fulls max-sm:px-5">
+    class="p-5 font-bold text-center flex gap-4 sm:gap-[40px] text-lg sm:text-[20px] lg:text-[26px] justify-between sm:justify-center lg:justify-start w-fulls max-sm:px-5">
     <a href="{{ route('frontend.projects.software') }}"
         class="cursor-pointer fonseca text-white relative {{ Route::current()->getName() == 'frontend.projects.software' ? 'dot' : 'opacity-60' }}">
         Software Developing</a>
